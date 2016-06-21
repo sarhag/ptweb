@@ -28,6 +28,7 @@
   #stuck_container {
     position: relative !important;
     box-shadow: none;
+      width: 33,333%
   }
   .pseudoStickyBlock {
     height: 0 !important;
