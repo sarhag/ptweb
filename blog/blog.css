@@ -1,0 +1,293 @@
+@import '../css/font-awesome.css';
+@import url(//fonts.googleapis.com/css?family=Open+Sans:300italic);
+@import url(//fonts.googleapis.com/css?family=Open+Sans:400italic);
+@import url(//fonts.googleapis.com/css?family=Droid+Sans);
+@import url(//fonts.googleapis.com/css?family=Kreon:400);
+@import url(//fonts.googleapis.com/css?family=Kreon:300);
+@import '../css/Parisian.css';
+@font-face{
+    font-family : "Parisian";
+    src:    url('fonts/Parisian.ttf') format('truetype'),
+            url('fonts/Parisian.woff') format('woff'),
+            url('fonts/Parisian.svg#abcd') format('svg');
+         
+}
+
+.sarah{
+    margin-left: 590px;
+    font-family: Parisian; 
+    font-size: 80px;
+    padding-top: 100px;
+    
+}
+.comble{
+    margin-left: 610px;
+    font-family: Parisian; 
+    font-size: 80px;
+    padding-bottom: 100px;
+    
+}
+
+.slogan{
+     margin-left: 500px;
+    font-size: 50px;
+    font-family: Parisian;
+}
+
+header{
+background-image: url(images/blog-header.gif);
+}
+
+.text_article{
+    margin-right: 500px;
+    margin-left: 70px;
+    text-align: justify;
+    font-size: 20px;
+    font-family: Kreon;
+}
+
+.titre_article1{
+   
+    font-size-adjust: auto;
+    text-align: center;
+    margin-right: 520px;
+    background-color: black;
+    color: lightgrey;
+
+}
+
+
+.accueil{
+    font-size: 30px;
+    margin-right: 50px;
+    font-family: Parisian; 
+}
+#accueil:visited{
+color: black;
+}
+.film{
+    font-size: 30px;
+    margin-left: 200px;
+    font-family: Parisian; 
+    color: lightgrey;
+}
+#film:visited{
+color: black;
+}
+.sorties{
+     font-size: 30px;
+    margin-left: 250px;
+    font-family: Parisian; 
+    color: lightgrey;
+}
+#sorties:visited{
+color: black;
+}
+.voyages{
+     font-size: 30px;
+    margin-left: 300px;
+    font-family: Parisian; 
+    color: lightgrey;
+}
+#voyage{
+color: black;
+}
+
+.logo{
+margin-left: 70px;
+}
+
+.CV{
+   
+    margin-left: 130px;
+    border-width: 3px;
+    border: solid ;
+    border-color: black;
+    color: black;
+    text-align: center;
+}
+
+
+li:hover{
+    color: white;
+}
+nav{
+    background-color: none;
+}
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+
+nav li{
+    display: inline-block;
+    
+    
+}
+.trait-dessus{
+ border-top: 5px solid;
+    width: 700px;
+}
+
+.img{
+    margin-left: 90px;
+    margin-right: 70px;
+}
+aside{
+    margin-left: 920px;
+    margin-right: 80px;
+    margin-top: 150px;
+    position: absolute;
+    width: 400px;
+   
+}
+
+.aside_titre{
+    border-width: 3px;
+    border: solid ;
+    border-color: white;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.presentation{
+    align-content: center;
+    text-align: center;
+}
+
+
+.article_accueil{
+    float: right;
+    margin-top: 20px;
+    
+}
+
+.article_accueil .aside-titre{
+    display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+ul.notes-echelle {
+	margin:0;
+	padding:0;
+	font:.75em/1.2 Arial, Helvetica, sans-serif;
+}
+ul.notes-echelle li {
+	float:left;
+	margin:0;
+	padding:0;
+	list-style:none;
+	min-width:20px;
+	min-height:20px;
+}
+/* Correctif IE6 sur min-width & min-height */
+* html ul.notes-echelle.js li {
+	width:20px;
+	height:20px;
+}
+ul.notes-echelle li label {
+	display:block;
+	text-align:center;
+	line-height:20px;
+	background:url(etoiles.gif) center top no-repeat;
+	cursor:pointer;
+}
+ul.notes-echelle li.note-off label {
+	background-position:center -60px;
+}
+
+ul.etoile.js input {
+	position:absolute;
+	left:-999%;
+}
+/* Effet lorsque une note est cochée */
+ ul.notes-echelle li.note-checked {
+	font-weight:bold;
+}
+/* Effet lorsque une note est tabulée au clavier */
+ ul.etoile.js li.note-focus {
+	outline:1px dotted #000;
+}
+
+
+
+
+.socials {
+  padding-top: 72px;
+  font-size: 0;
+  line-height: 0;
+}
+.socials .fa {
+  width: 29px;
+  height: 29px;
+  line-height: 29px;
+  font-size: 18px;
+  text-align: center;
+  border: 1px solid #ffffff;
+}
+.socials .fa + .fa {
+  margin-left: 8px;
+}
+
+
+
+/*Responisve*/
+
+/* smartphones*/
+@media (max-width:420px){
+    .wrapper{
+        width:100%;
+        padding:0;
+    }
+    
+    nav{
+        width:100%;
+        height:20vh;
+    } 
+    
+    section{
+        width:100%;
+    }
+    
+    aside{
+        width:100%;
+        height:20vh;
+    }
+}
+
+/* TABLETTE */
+
+@media (min-width:421px) and (max-width:800px){
+    .wrapper{
+        width:100%;
+        padding:0 1em 0 1em;
+    }
+
+    nav{
+        width:calc(100% / 3);
+    }  
+    
+    section{
+        width:calc(100% / 3 * 2);
+    }
+    
+    aside{
+        width:100%;
+        height:20vh;
+    }
+}
+    
+
+ 
+
+

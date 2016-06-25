@@ -1,5 +1,5 @@
 <?php
-	$owner_email='#';
+	$owner_email='sarahxcomble@live.fr';
 	//SMTP server settings	
 	$host = '';
     $port = '465';//"587";

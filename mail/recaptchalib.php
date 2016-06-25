@@ -209,7 +209,7 @@ function _recaptcha_aes_pad($val) {
 	return str_pad($val, strlen ($val) + $numpad, chr($numpad));
 }
 
-/* Mailhide related code */
+/* Mail hide related code */
 
 function _recaptcha_aes_encrypt($val,$ky) {
 	if (! function_exists ("mcrypt_encrypt")) {

@@ -1,4 +1,4 @@
-<?php
+ <?php
 class Mail
 {
     private $charset = "UTF-8";
